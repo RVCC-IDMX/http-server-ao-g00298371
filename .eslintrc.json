@@ -3,10 +3,13 @@
         "browser": true,
         "es2021": true
     },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon basic-server.js"
+    },
     "extends": "airbnb-base",
     "parserOptions": {
         "ecmaVersion": "latest"
     },
-    "rules": {
-    }
+    "rules": {}
 }
